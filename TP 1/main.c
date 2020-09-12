@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "funciones.h"
+#include "TP_1_CALCULADORA.h"
 
 int main()
 {
@@ -8,19 +8,19 @@ int main()
     int seguir=1;
     int banderaNumeroX = 0;
     int banderaNumeroY = 0;
-    int numA;
-    int numB;
     int banderaValidacion=0;
+    float numA;
+    float numB;
 
     do{
         decorativo();
         menuCalculadora(numA, numB, banderaNumeroX, banderaNumeroY);
-        printf("\n\n\n                        Digite la opcion a realizar: ");
+        printf("\n\n\n                         Digite la opcion a realizar: ");
         scanf("%d", &opcion);
 
         switch(opcion)
-        {   
-	    case 1:
+        {
+			case 1:
                 numA=ingresoNumero();
                 banderaNumeroX=1;
                 break;
@@ -36,6 +36,8 @@ int main()
                 break;
             case 5:
                 seguir=salir();
+                banderaNumeroX=0;
+                banderaNumeroY=0;
                 break;
             default:
                 system("cls");
@@ -49,4 +51,3 @@ int main()
 
     return 0;
 }
-
