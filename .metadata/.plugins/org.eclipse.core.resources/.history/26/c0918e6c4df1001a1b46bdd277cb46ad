@@ -1,0 +1,40 @@
+/*
+ ============================================================================
+ Name        : tp1_calculadora.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+menuCalculadora()
+
+int main(void)
+{
+
+	float numero1, numero2
+	int banderaPrimerNum = 0, banderaSegundoNum = 0;
+
+	do{
+
+		menuCalculadora(banderaPrimerNum, banderaSegundoNum, numero1, numero2);
+
+
+
+
+
+
+
+
+	}while(opcion!=5);
+
+
+
+
+	return EXIT_SUCCESS;
+}

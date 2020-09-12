@@ -1,0 +1,11 @@
+14:33:10 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+..\src\trabajoPractico1.c: In function 'main':
+..\src\trabajoPractico1.c:35:9: error: 'opcion' undeclared (first use in this function)
+   35 |  switch(opcion)
+      |         ^~~~~~
+..\src\trabajoPractico1.c:35:9: note: each undeclared identifier is reported only once for each function it appears in
+
+14:33:10 Build Failed. 1 errors, 0 warnings. (took 211ms)
+

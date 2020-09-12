@@ -1,0 +1,651 @@
+14:06:31 **** Rebuild of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+..\src\trabajoPractico1.c: In function 'main':
+..\src\trabajoPractico1.c:23:9: warning: too many arguments for format [-Wformat-extra-args]
+   23 |  printf("[1] Ingresar el primer operando (A = &d)", num1);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:24:9: warning: too many arguments for format [-Wformat-extra-args]
+   24 |  printf("[2] Ingresar el segundo operando (B = &d)", num2);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:23:2: warning: 'num1' is used uninitialized in this function [-Wuninitialized]
+   23 |  printf("[1] Ingresar el primer operando (A = &d)", num1);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:24:2: warning: 'num2' is used uninitialized in this function [-Wuninitialized]
+   24 |  printf("[2] Ingresar el segundo operando (B = &d)", num2);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:34:2: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+   34 |  switch(opcion)
+      |  ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o trabajoPractico1.exe "src\\trabajoPractico1.o" "src\\utn.o" 
+14:08:57 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+..\src\trabajoPractico1.c: In function 'main':
+..\src\trabajoPractico1.c:23:9: warning: too many arguments for format [-Wformat-extra-args]
+   23 |  printf("[1] Ingresar el primer operando (A = &d)", num1);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:24:9: warning: too many arguments for format [-Wformat-extra-args]
+   24 |  printf("[2] Ingresar el segundo operando (B = &d)", num2);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:38:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   38 |   scanf("%d", num1);
+      |          ~^   ~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\trabajoPractico1.c:41:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   41 |   scanf("%d", num2);
+      |          ~^   ~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\trabajoPractico1.c:23:2: warning: 'num1' is used uninitialized in this function [-Wuninitialized]
+   23 |  printf("[1] Ingresar el primer operando (A = &d)", num1);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:24:2: warning: 'num2' is used uninitialized in this function [-Wuninitialized]
+   24 |  printf("[2] Ingresar el segundo operando (B = &d)", num2);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:34:2: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+   34 |  switch(opcion)
+      |  ^~~~~~
+gcc -o trabajoPractico1.exe "src\\trabajoPractico1.o" "src\\utn.o" 
+14:13:22 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+..\src\trabajoPractico1.c: In function 'main':
+..\src\trabajoPractico1.c:25:9: warning: too many arguments for format [-Wformat-extra-args]
+   25 |  printf("[1] Ingresar el primer operando (A = &d)", num1);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:26:9: warning: too many arguments for format [-Wformat-extra-args]
+   26 |  printf("[2] Ingresar el segundo operando (B = &d)", num2);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:40:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   40 |   scanf("%d", num1);
+      |          ~^   ~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\trabajoPractico1.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   43 |   scanf("%d", num2);
+      |          ~^   ~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\trabajoPractico1.c:25:2: warning: 'num1' is used uninitialized in this function [-Wuninitialized]
+   25 |  printf("[1] Ingresar el primer operando (A = &d)", num1);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:26:2: warning: 'num2' is used uninitialized in this function [-Wuninitialized]
+   26 |  printf("[2] Ingresar el segundo operando (B = &d)", num2);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:36:2: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+   36 |  switch(opcion)
+      |  ^~~~~~
+gcc -o trabajoPractico1.exe "src\\trabajoPractico1.o" "src\\utn.o" 
+14:14:23 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+..\src\trabajoPractico1.c: In function 'main':
+..\src\trabajoPractico1.c:25:9: warning: too many arguments for format [-Wformat-extra-args]
+   25 |  printf("[1] Ingresar el primer operando (A = &d)", num1);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:26:9: warning: too many arguments for format [-Wformat-extra-args]
+   26 |  printf("[2] Ingresar el segundo operando (B = &d)", num2);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:40:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   40 |   scanf("%d", num1);
+      |          ~^   ~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\trabajoPractico1.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   43 |   scanf("%d", num2);
+      |          ~^   ~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\trabajoPractico1.c:25:2: warning: 'num1' is used uninitialized in this function [-Wuninitialized]
+   25 |  printf("[1] Ingresar el primer operando (A = &d)", num1);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:26:2: warning: 'num2' is used uninitialized in this function [-Wuninitialized]
+   26 |  printf("[2] Ingresar el segundo operando (B = &d)", num2);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:36:2: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+   36 |  switch(opcion)
+      |  ^~~~~~
+gcc -o trabajoPractico1.exe "src\\trabajoPractico1.o" "src\\utn.o" 
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+14:16:39 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+..\src\trabajoPractico1.c: In function 'main':
+..\src\trabajoPractico1.c:25:9: warning: too many arguments for format [-Wformat-extra-args]
+   25 |  printf("[1] Ingresar el primer operando (A = &d)", num1);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:26:9: warning: too many arguments for format [-Wformat-extra-args]
+   26 |  printf("[2] Ingresar el segundo operando (B = &d)", num2);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:40:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   40 |   scanf("%d", num1);
+      |          ~^   ~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\trabajoPractico1.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   43 |   scanf("%d", num2);
+      |          ~^   ~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\trabajoPractico1.c:25:2: warning: 'num1' is used uninitialized in this function [-Wuninitialized]
+   25 |  printf("[1] Ingresar el primer operando (A = &d)", num1);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:26:2: warning: 'num2' is used uninitialized in this function [-Wuninitialized]
+   26 |  printf("[2] Ingresar el segundo operando (B = &d)", num2);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:36:2: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+   36 |  switch(opcion)
+      |  ^~~~~~
+gcc -o trabajoPractico1.exe "src\\trabajoPractico1.o" "src\\utn.o" 
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+14:17:13 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+gcc -o trabajoPractico1.exe "src\\trabajoPractico1.o" "src\\utn.o" 
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+14:17:51 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+gcc -o trabajoPractico1.exe "src\\trabajoPractico1.o" "src\\utn.o" 
+Info: Nothing to build for trabajoPractico1
+14:19:18 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+..\src\trabajoPractico1.c: In function 'main':
+..\src\trabajoPractico1.c:25:9: warning: too many arguments for format [-Wformat-extra-args]
+   25 |  printf("[1] Ingresar el primer operando (A = &d)", num1);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:26:9: warning: too many arguments for format [-Wformat-extra-args]
+   26 |  printf("[2] Ingresar el segundo operando (B = &d)", num2);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:40:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   40 |   scanf("%d", num1);
+      |          ~^   ~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\trabajoPractico1.c:44:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   44 |   scanf("%d", num2);
+      |          ~^   ~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\trabajoPractico1.c:25:2: warning: 'num1' is used uninitialized in this function [-Wuninitialized]
+   25 |  printf("[1] Ingresar el primer operando (A = &d)", num1);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:26:2: warning: 'num2' is used uninitialized in this function [-Wuninitialized]
+   26 |  printf("[2] Ingresar el segundo operando (B = &d)", num2);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajoPractico1.c:36:2: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+   36 |  switch(opcion)
+      |  ^~~~~~
+gcc -o trabajoPractico1.exe "src\\trabajoPractico1.o" "src\\utn.o" 
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for trabajoPractico1
+14:21:06 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+..\src\trabajoPractico1.c: In function 'main':
+..\src\trabajoPractico1.c:24:53: error: 'num1' undeclared (first use in this function)
+   24 |  printf("[1] Ingresar el primer operando (A = &d)", num1);
+      |                                                     ^~~~
+..\src\trabajoPractico1.c:24:53: note: each undeclared identifier is reported only once for each function it appears in
+..\src\trabajoPractico1.c:25:54: error: 'num2' undeclared (first use in this function)
+   25 |  printf("[2] Ingresar el segundo operando (B = &d)", num2);
+      |                                                      ^~~~
+..\src\trabajoPractico1.c:35:9: error: 'opcion' undeclared (first use in this function)
+   35 |  switch(opcion)
+      |         ^~~~~~
+14:21:45 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+gcc -o trabajoPractico1.exe "src\\trabajoPractico1.o" "src\\utn.o" 
+14:22:10 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+gcc -o trabajoPractico1.exe "src\\trabajoPractico1.o" "src\\utn.o" 
+14:22:26 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+gcc -o trabajoPractico1.exe "src\\trabajoPractico1.o" "src\\utn.o" 
+14:22:52 **** Rebuild of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for hola
+Info: Nothing to build for trabajoPractico1
+Info: Nothing to build for hola
+14:30:43 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+..\src\trabajoPractico1.c: In function 'main':
+..\src\trabajoPractico1.c:35:9: error: 'opcion' undeclared (first use in this function)
+   35 |  switch(opcion)
+      |         ^~~~~~
+..\src\trabajoPractico1.c:35:9: note: each undeclared identifier is reported only once for each function it appears in
+14:30:51 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+14:30:52 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+..\src\trabajoPractico1.c: In function 'main':
+..\src\trabajoPractico1.c:35:9: error: 'opcion' undeclared (first use in this function)
+   35 |  switch(opcion)
+      |         ^~~~~~
+..\src\trabajoPractico1.c:35:9: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for hola
+14:31:10 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+..\src\trabajoPractico1.c: In function 'main':
+..\src\trabajoPractico1.c:35:9: error: 'opcion' undeclared (first use in this function)
+   35 |  switch(opcion)
+      |         ^~~~~~
+..\src\trabajoPractico1.c:35:9: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for hola
+14:33:10 **** Incremental Build of configuration Debug for project trabajoPractico1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajoPractico1.o" "..\\src\\trabajoPractico1.c" 
+..\src\trabajoPractico1.c: In function 'main':
+..\src\trabajoPractico1.c:35:9: error: 'opcion' undeclared (first use in this function)
+   35 |  switch(opcion)
+      |         ^~~~~~
+..\src\trabajoPractico1.c:35:9: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for hola
+14:33:57 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+14:34:31 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+..\src\hola.c: In function 'main':
+..\src\hola.c:16:2: error: too few arguments to function 'setbuf'
+   16 |  setbuf(stdout);
+      |  ^~~~~~
+In file included from ..\src\hola.c:11:
+c:\mingw\include\stdio.h:296:41: note: declared here
+  296 | _CRTIMP __cdecl __MINGW_NOTHROW  void   setbuf (FILE *, char *);
+      |                                         ^~~~~~
+14:35:15 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+14:36:17 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+14:36:27 **** Incremental Build of configuration Debug for project hola ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola.o" "..\\src\\hola.c" 
+gcc -o hola.exe "src\\hola.o" 
+Info: Nothing to build for hola
+Info: Nothing to build for hola
+Info: Nothing to build for hola
+Info: Nothing to build for hola
+Info: Nothing to build for hola
+14:46:16 **** Rebuild of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+Info: Nothing to build for trabajopractico_calculadora
+14:47:19 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+14:49:01 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+..\src\trabajopractico_calculadora.c: In function 'main':
+..\src\trabajopractico_calculadora.c:19:2: warning: 'num1' is used uninitialized in this function [-Wuninitialized]
+   19 |  printf("1 - Ingresar primer operando: %d", num1);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajopractico_calculadora.c:20:2: warning: 'num2' is used uninitialized in this function [-Wuninitialized]
+   20 |  printf("2 - Ingresar segundo operando: %d", num2);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+14:49:39 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+..\src\trabajopractico_calculadora.c: In function 'main':
+..\src\trabajopractico_calculadora.c:19:2: warning: 'num1' is used uninitialized in this function [-Wuninitialized]
+   19 |  printf("1 - Ingresar primer operando: %d\n", num1);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajopractico_calculadora.c:20:2: warning: 'num2' is used uninitialized in this function [-Wuninitialized]
+   20 |  printf("2 - Ingresar segundo operando: %d\n", num2);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+14:50:59 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+14:51:07 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+14:55:52 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+14:56:04 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+14:56:18 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+14:56:34 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+15:00:55 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+..\src\trabajopractico_calculadora.c: In function 'main':
+..\src\trabajopractico_calculadora.c:31:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+   31 |  scanf("%d", &opcion);
+      |         ~^   ~~~~~~~
+      |          |   |
+      |          |   char *
+      |          int *
+      |         %c
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+15:01:14 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+..\src\trabajopractico_calculadora.c: In function 'main':
+..\src\trabajopractico_calculadora.c:33:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+   33 |  scanf("%d", &opcion);
+      |         ~^   ~~~~~~~
+      |          |   |
+      |          |   char *
+      |          int *
+      |         %c
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+15:50:36 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+..\src\trabajopractico_calculadora.c: In function 'main':
+..\src\trabajopractico_calculadora.c:43:11: warning: too many arguments for format [-Wformat-extra-args]
+   43 |    printf("2 - Ingresar segundo operando: (B = X)\n",num1 );
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajopractico_calculadora.c:61:11: warning: too many arguments for format [-Wformat-extra-args]
+   61 |    printf("1 - Ingresar primer operando: (A = %d)\n", num1, num2);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\trabajopractico_calculadora.c:62:11: warning: too many arguments for format [-Wformat-extra-args]
+   62 |    printf("2 - Ingresar segundo operando: (B = %d)\n",num1, num2 );
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file trabajopractico_calculadora.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:51:40 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file trabajopractico_calculadora.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:52:04 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file trabajopractico_calculadora.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:53:30 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file trabajopractico_calculadora.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:54:05 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file trabajopractico_calculadora.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:12:27 **** Incremental Build of configuration Debug for project trabajopractico_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\trabajopractico_calculadora.o" "..\\src\\trabajopractico_calculadora.c" 
+gcc -o trabajopractico_calculadora.exe "src\\trabajopractico_calculadora.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file trabajopractico_calculadora.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:04:51 **** Rebuild of configuration Debug for project tp1_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1_calculadora.o" "..\\src\\tp1_calculadora.c" 
+..\src\tp1_calculadora.c: In function 'main':
+..\src\tp1_calculadora.c:20:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+   20 |  int banderaPrimerNum = 0, banderaSegundoNum = 0, opcion;
+      |  ^~~
+..\src\tp1_calculadora.c:24:19: error: 'banderaPrimerNum' undeclared (first use in this function)
+   24 |   menuCalculadora(banderaPrimerNum, banderaSegundoNum, numero1, numero2);
+      |                   ^~~~~~~~~~~~~~~~
+..\src\tp1_calculadora.c:24:19: note: each undeclared identifier is reported only once for each function it appears in
+..\src\tp1_calculadora.c:24:37: error: 'banderaSegundoNum' undeclared (first use in this function)
+   24 |   menuCalculadora(banderaPrimerNum, banderaSegundoNum, numero1, numero2);
+      |                                     ^~~~~~~~~~~~~~~~~
+..\src\tp1_calculadora.c:24:65: error: 'numero2' undeclared (first use in this function); did you mean 'numero1'?
+   24 |   menuCalculadora(banderaPrimerNum, banderaSegundoNum, numero1, numero2);
+      |                                                                 ^~~~~~~
+      |                                                                 numero1
+..\src\tp1_calculadora.c:26:15: error: 'opcion' undeclared (first use in this function)
+   26 |   scanf("%d", opcion);
+      |               ^~~~~~
+In file included from ..\src\tp1_calculadora.c:13:
+..\src\utn.c: In function 'menuCalculadora':
+..\src\utn.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+18:05:30 **** Incremental Build of configuration Debug for project tp1_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'menuCalculadora':
+..\src\utn.c:11:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   11 |  printf ("---> CALCULADORA <---\n\n");
+      |  ^~~~~~
+..\src\utn.c:11:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\utn.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+..\src\utn.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1_calculadora.o" "..\\src\\tp1_calculadora.c" 
+..\src\tp1_calculadora.c: In function 'main':
+..\src\tp1_calculadora.c:26:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   26 |   scanf("%d", opcion);
+      |          ~^   ~~~~~~
+      |           |   |
+      |           |   int
+      |           int *
+In file included from ..\src\tp1_calculadora.c:13:
+..\src\utn.c: In function 'menuCalculadora':
+..\src\utn.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+..\src\tp1_calculadora.c: In function 'main':
+..\src\tp1_calculadora.c:24:3: warning: 'numero1' is used uninitialized in this function [-Wuninitialized]
+   24 |   menuCalculadora(banderaPrimerNum, banderaSegundoNum, numero1, numero2);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1_calculadora.c:24:3: warning: 'numero2' is used uninitialized in this function [-Wuninitialized]
+..\src\tp1_calculadora.c:26:3: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+   26 |   scanf("%d", opcion);
+      |   ^~~~~~~~~~~~~~~~~~~
+gcc -o tp1_calculadora.exe "src\\tp1_calculadora.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\utn.o: in function `menuCalculadora':
+C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: multiple definition of `menuCalculadora'; src\tp1_calculadora.o:C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: first defined here
+collect2.exe: error: ld returned 1 exit status
+18:06:50 **** Incremental Build of configuration Debug for project tp1_calculadora ****
+Info: Internal Builder is used for build
+gcc -o tp1_calculadora.exe "src\\tp1_calculadora.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\utn.o: in function `menuCalculadora':
+C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: multiple definition of `menuCalculadora'; src\tp1_calculadora.o:C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: first defined here
+collect2.exe: error: ld returned 1 exit status
+18:07:31 **** Incremental Build of configuration Debug for project tp1_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1_calculadora.o" "..\\src\\tp1_calculadora.c" 
+In file included from ..\src\tp1_calculadora.c:13:
+..\src\utn.c: In function 'menuCalculadora':
+..\src\utn.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+..\src\tp1_calculadora.c: In function 'main':
+..\src\tp1_calculadora.c:24:3: warning: 'numero1' is used uninitialized in this function [-Wuninitialized]
+   24 |   menuCalculadora(banderaPrimerNum, banderaSegundoNum, numero1, numero2);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1_calculadora.c:24:3: warning: 'numero2' is used uninitialized in this function [-Wuninitialized]
+gcc -o tp1_calculadora.exe "src\\tp1_calculadora.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\utn.o: in function `menuCalculadora':
+C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: multiple definition of `menuCalculadora'; src\tp1_calculadora.o:C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: first defined here
+collect2.exe: error: ld returned 1 exit status
+18:08:53 **** Incremental Build of configuration Debug for project tp1_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1_calculadora.o" "..\\src\\tp1_calculadora.c" 
+In file included from ..\src\tp1_calculadora.c:13:
+..\src\utn.c:8:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    8 | menuCalculadora(int banderaPrimerNum, int banderaSegundoNum, float numero1, float numero2)
+      | ^~~~~~~~~~~~~~~
+In file included from ..\src\tp1_calculadora.c:13:
+..\src\utn.c: In function 'menuCalculadora':
+..\src\utn.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+..\src\tp1_calculadora.c: In function 'main':
+..\src\tp1_calculadora.c:24:3: warning: 'numero1' is used uninitialized in this function [-Wuninitialized]
+   24 |   menuCalculadora(banderaPrimerNum, banderaSegundoNum, numero1, numero2);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1_calculadora.c:24:3: warning: 'numero2' is used uninitialized in this function [-Wuninitialized]
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c:8:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    8 | menuCalculadora(int banderaPrimerNum, int banderaSegundoNum, float numero1, float numero2)
+      | ^~~~~~~~~~~~~~~
+..\src\utn.c: In function 'menuCalculadora':
+..\src\utn.c:11:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   11 |  printf ("---> CALCULADORA <---\n\n");
+      |  ^~~~~~
+..\src\utn.c:11:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\utn.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+..\src\utn.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+   41 | }
+      | ^
+gcc -o tp1_calculadora.exe "src\\tp1_calculadora.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\utn.o: in function `menuCalculadora':
+C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: multiple definition of `menuCalculadora'; src\tp1_calculadora.o:C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: first defined here
+collect2.exe: error: ld returned 1 exit status
+18:10:59 **** Incremental Build of configuration Debug for project tp1_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c:8:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    8 | menuCalculadora(int banderaPrimerNum, int banderaSegundoNum, float numero1, float numero2)
+      | ^~~~~~~~~~~~~~~
+..\src\utn.c: In function 'menuCalculadora':
+..\src\utn.c:11:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   11 |  printf ("---> CALCULADORA <---\n\n");
+      |  ^~~~~~
+..\src\utn.c:11:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\utn.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+..\src\utn.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+   45 | }
+      | ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1_calculadora.o" "..\\src\\tp1_calculadora.c" 
+In file included from ..\src\tp1_calculadora.c:13:
+..\src\utn.c:8:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    8 | menuCalculadora(int banderaPrimerNum, int banderaSegundoNum, float numero1, float numero2)
+      | ^~~~~~~~~~~~~~~
+In file included from ..\src\tp1_calculadora.c:13:
+..\src\utn.c: In function 'menuCalculadora':
+..\src\utn.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+   45 | }
+      | ^
+..\src\tp1_calculadora.c: In function 'main':
+..\src\tp1_calculadora.c:24:3: warning: 'numero1' is used uninitialized in this function [-Wuninitialized]
+   24 |   menuCalculadora(banderaPrimerNum, banderaSegundoNum, numero1, numero2);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1_calculadora.c:24:3: warning: 'numero2' is used uninitialized in this function [-Wuninitialized]
+gcc -o tp1_calculadora.exe "src\\tp1_calculadora.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\utn.o: in function `menuCalculadora':
+C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: multiple definition of `menuCalculadora'; src\tp1_calculadora.o:C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: first defined here
+collect2.exe: error: ld returned 1 exit status
+18:12:01 **** Incremental Build of configuration Debug for project tp1_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1_calculadora.o" "..\\src\\tp1_calculadora.c" 
+..\src\tp1_calculadora.c: In function 'main':
+..\src\tp1_calculadora.c:20:28: warning: unused variable 'banderaSegundoNum' [-Wunused-variable]
+   20 |  int banderaPrimerNum = 0, banderaSegundoNum = 0, opcion = 8;
+      |                            ^~~~~~~~~~~~~~~~~
+..\src\tp1_calculadora.c:20:6: warning: unused variable 'banderaPrimerNum' [-Wunused-variable]
+   20 |  int banderaPrimerNum = 0, banderaSegundoNum = 0, opcion = 8;
+      |      ^~~~~~~~~~~~~~~~
+..\src\tp1_calculadora.c:19:17: warning: unused variable 'numero2' [-Wunused-variable]
+   19 |  float numero1, numero2;
+      |                 ^~~~~~~
+..\src\tp1_calculadora.c:19:8: warning: unused variable 'numero1' [-Wunused-variable]
+   19 |  float numero1, numero2;
+      |        ^~~~~~~
+gcc -o tp1_calculadora.exe "src\\tp1_calculadora.o" "src\\utn.o" 
+Info: Nothing to build for tp1_calculadora
+18:14:23 **** Incremental Build of configuration Debug for project tp1_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1_calculadora.o" "..\\src\\tp1_calculadora.c" 
+In file included from ..\src\tp1_calculadora.c:13:
+..\src\utn.c:8:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    8 | menuCalculadora(int banderaPrimerNum, int banderaSegundoNum, float numero1, float numero2)
+      | ^~~~~~~~~~~~~~~
+..\src\tp1_calculadora.c: In function 'main':
+..\src\tp1_calculadora.c:20:51: warning: unused variable 'opcion' [-Wunused-variable]
+   20 |  int banderaPrimerNum = 0, banderaSegundoNum = 0, opcion = 1;
+      |                                                   ^~~~~~
+In file included from ..\src\tp1_calculadora.c:13:
+..\src\utn.c: In function 'menuCalculadora':
+..\src\utn.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+   45 | }
+      | ^
+..\src\tp1_calculadora.c: In function 'main':
+..\src\tp1_calculadora.c:35:5: warning: 'numero1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   35 |     printf("1- Digite el primer operando: A = %.2f\n", numero1);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1_calculadora.c:43:5: warning: 'numero2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   43 |     printf("2- Digite el segundo operando: B = %.2f\n", numero2);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o tp1_calculadora.exe "src\\tp1_calculadora.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\utn.o: in function `menuCalculadora':
+C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: multiple definition of `menuCalculadora'; src\tp1_calculadora.o:C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: first defined here
+collect2.exe: error: ld returned 1 exit status

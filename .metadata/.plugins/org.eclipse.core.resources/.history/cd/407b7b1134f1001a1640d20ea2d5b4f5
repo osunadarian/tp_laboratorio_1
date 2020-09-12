@@ -1,0 +1,31 @@
+/*
+ ============================================================================
+ Name        : trabajopractico_calculadora.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	int num1 = 0 , num2 = 0;
+
+	printf("-> Calculadora <-\n\n");
+	printf("1 - Ingresar primer operando: %d\n", num1);
+	printf("2 - Ingresar segundo operando: %d\n", num2);
+	printf("3 - Calcular todas las operaciones\n");
+	printf("    a - Calcular la suma (A + B)\n");
+	printf("    b - Calcular la resta (A - B)\n");
+	printf("    c - Calcular la division (A / B)\n");
+	printf("    d - Calcular la multiplicacion (A * B)\n");
+
+
+
+	return EXIT_SUCCESS;
+
+}

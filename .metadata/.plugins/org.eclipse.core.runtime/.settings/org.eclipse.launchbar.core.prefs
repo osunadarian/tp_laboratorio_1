@@ -1,0 +1,9 @@
+LaunchTargetManager/configs/hola.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/trabajopractico_calculadora.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:hola.exe,org.eclipse.launchbar.core.descriptorType.default\:trabajopractico_calculadora.exe,org.eclipse.launchbar.core.descriptorType.default\:tp1_calculadora.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:hola.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:hola.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

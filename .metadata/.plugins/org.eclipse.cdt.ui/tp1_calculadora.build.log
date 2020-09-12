@@ -1,0 +1,30 @@
+18:14:23 **** Incremental Build of configuration Debug for project tp1_calculadora ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1_calculadora.o" "..\\src\\tp1_calculadora.c" 
+In file included from ..\src\tp1_calculadora.c:13:
+..\src\utn.c:8:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    8 | menuCalculadora(int banderaPrimerNum, int banderaSegundoNum, float numero1, float numero2)
+      | ^~~~~~~~~~~~~~~
+..\src\tp1_calculadora.c: In function 'main':
+..\src\tp1_calculadora.c:20:51: warning: unused variable 'opcion' [-Wunused-variable]
+   20 |  int banderaPrimerNum = 0, banderaSegundoNum = 0, opcion = 1;
+      |                                                   ^~~~~~
+In file included from ..\src\tp1_calculadora.c:13:
+..\src\utn.c: In function 'menuCalculadora':
+..\src\utn.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+   45 | }
+      | ^
+..\src\tp1_calculadora.c: In function 'main':
+..\src\tp1_calculadora.c:35:5: warning: 'numero1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   35 |     printf("1- Digite el primer operando: A = %.2f\n", numero1);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1_calculadora.c:43:5: warning: 'numero2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   43 |     printf("2- Digite el segundo operando: B = %.2f\n", numero2);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o tp1_calculadora.exe "src\\tp1_calculadora.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\utn.o: in function `menuCalculadora':
+C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: multiple definition of `menuCalculadora'; src\tp1_calculadora.o:C:\Users\darian\Desktop\Classroom\Programacion - Laboratorio\tp_laboratorio_1\tp1_calculadora\Debug/../src/utn.c:9: first defined here
+collect2.exe: error: ld returned 1 exit status
+
+18:14:23 Build Failed. 2 errors, 5 warnings. (took 420ms)
+

@@ -1,0 +1,28 @@
+/*
+ ============================================================================
+ Name        : trabajopractico_calculadora.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	char num1 = 'A' , num2 = 'B';
+
+	printf("Calculadora\n");
+	printf("1 - Ingresar primer operando: %c\n", num1);
+	printf("2 - Ingresar segundo operando: %c\n", num2);
+	printf("3 - Calcular todas las operaciones");
+
+
+
+
+	return EXIT_SUCCESS;
+
+}
