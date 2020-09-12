@@ -98,7 +98,7 @@ int calcularOperaciones(int a, int b, int banderaX, int banderaY)
     }else
     {
         system("cls");
-        printf("\n\n                                  ERROR!\n\nLos calculos NO se han realizado. Por favor, verifique haber ingresado ambos operandos.\n\n\n\n\n");
+        printf("\n\n                                 ERROR!\n\nLos calculos NO se han realizado. Por favor, verifique haber ingresado ambos operandos.\n\n\n\n\n");
     }
 
     return banderaNumerosValidos;
