@@ -58,7 +58,7 @@ float multiplicacion(float a, float b);
 /** \brief Funcion que realiza el factoreo de un solo operando
  *
  * \param num float Operando
- * \return int  Retorna el valor del factoreo de num
+ * \return int   Retorna el valor del factoreo de num
  *
  */
 int factoreo(float num);
