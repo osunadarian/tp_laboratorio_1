@@ -15,7 +15,7 @@ int main()
     do{
         decorativo();
         menuCalculadora(numA, numB, banderaNumeroX, banderaNumeroY);
-        printf("\n\n\n                       Digite la opcion a realizar: ");
+        printf("\n\n\n                        Digite la opcion a realizar: ");
         scanf("%d", &opcion);
 
         switch(opcion)
