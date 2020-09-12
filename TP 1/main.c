@@ -19,7 +19,8 @@ int main()
         scanf("%d", &opcion);
 
         switch(opcion)
-        {   case 1:
+        {   
+			case 1:
                 numA=ingresoNumero();
                 banderaNumeroX=1;
                 break;
