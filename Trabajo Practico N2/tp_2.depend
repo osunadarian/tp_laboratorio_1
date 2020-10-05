@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1601929595 source:c:\users\darian\desktop\tp ultimo\tp_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"ArrayEmployees.h"
+	"validaciones.h"
+	"menu.h"
+
+1601930192 c:\users\darian\desktop\tp ultimo\tp_2\arrayemployees.h
+
+1601929353 source:c:\users\darian\desktop\tp ultimo\tp_2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"ArrayEmployees.h"
+	"menu.h"
+	"validaciones.h"
+
+1601928665 source:c:\users\darian\desktop\tp ultimo\tp_2\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"validaciones.h"
+
+1601930004 c:\users\darian\desktop\tp ultimo\tp_2\validaciones.h
+
+1601930105 c:\users\darian\desktop\tp ultimo\tp_2\menu.h
+
+1601929001 source:c:\users\darian\desktop\tp ultimo\tp_2\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"menu.h"
+
